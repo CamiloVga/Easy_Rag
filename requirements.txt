@@ -1,0 +1,34 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+gradio>=3.40.0
+
+# Language models and processing
+sentencepiece>=0.1.99
+safetensors>=0.3.1
+protobuf>=4.24.0
+bitsandbytes>=0.41.0
+
+# Document processing
+langchain>=0.0.200
+langchain-community>=0.0.10
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+pypdf>=3.9.0
+python-docx>=0.8.11
+docx2txt>=0.8
+unstructured>=0.7.0
+pdf2image>=1.16.3
+
+# Utilities
+python-dotenv>=0.21.1
+tqdm>=4.65.0
+numpy>=1.24.3
+pandas>=2.0.0
+
+# Development
+pytest>=7.3.1
+black>=23.3.0
+flake8>=6.0.0
+isort>=5.12.0
